@@ -1,5 +1,5 @@
 def task(numbers: list) -> int:
-    return sum(num ** 3 for num in numbers if num < 0)
+    return sum(i ** 3 for i in numbers if i < 0)
 
 
 if __name__ == "__main__":

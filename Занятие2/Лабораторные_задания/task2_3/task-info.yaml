@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 28
-    length: 38
+    length: 48
     placeholder_text: "...  # TODO записать функцию-генератор"
     initial_state:
       length: 38
       offset: 28
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       n = 0
           while True:
@@ -40,5 +40,15 @@ files:
     1000
     10000
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Thu, 20 Apr 2023 17:16:45 UTC"
+  expected: |
+    1
+    10
+    100
+    1000
+    10000
+  actual: <no output>
 record: -1

@@ -3,15 +3,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 57
-    length: 63
+  - offset: 84
+    length: 84
     placeholder_text: "...  # TODO написать функцию-генератор возвращающую целые ч\
       исла"
     initial_state:
       length: 63
       offset: 57
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       while True:
