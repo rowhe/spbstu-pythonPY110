@@ -4,16 +4,16 @@ files:
   visible: true
   placeholders:
   - offset: 148
-    length: 125
-    placeholder_text: "...  # используй ключевую у функции min, по которой она дол\
-      на определять минимальный элемент"
+    length: 105
+    placeholder_text: '...  # используй ключевую у функции min, по которой она долна
+      определять минимальный элемент'
     initial_state:
-      length: 92
-      offset: 149
+      length: 125
+      offset: 148
     initialized_from_dependency: false
     selected: true
     status: Solved
-    encrypted_possible_answer: "min(list_words, key=len)"
+    encrypted_possible_answer: min(list_words, key=len)
   text: |
     def task() -> str:
         list_words = [
@@ -41,5 +41,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Mon, 01 May 2023 17:46:36 UTC"
+  time: Fri, 28 Apr 2023 14:37:43 UTC
 record: -1

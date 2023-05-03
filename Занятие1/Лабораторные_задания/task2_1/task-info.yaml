@@ -1,18 +1,26 @@
 type: output
 files:
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/output.txt
+  visible: false
+  text: |
+    bdfh
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
   - offset: 57
     length: 88
-    placeholder_text: "...)  # TODO отфильтровать только буквы нижнего регистра"
+    placeholder_text: '...)  # TODO отфильтровать только буквы нижнего регистра'
     initial_state:
       length: 56
       offset: 57
     initialized_from_dependency: false
     selected: true
     status: Solved
-    encrypted_possible_answer: "filter(str.islower, camel_case_str))"
+    encrypted_possible_answer: filter(str.islower, camel_case_str))
   text: |
     def task(camel_case_str: str) -> str:
         return "".join(...)  # TODO отфильтровать только буквы нижнего регистра
@@ -22,16 +30,8 @@ files:
         word = "AbCdEfGh"
         print(task(word))
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
-- name: tests/output.txt
-  visible: false
-  text: |
-    bdfh
-  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Mon, 01 May 2023 18:23:18 UTC"
+  time: Wed, 03 May 2023 13:17:49 UTC
 record: -1
