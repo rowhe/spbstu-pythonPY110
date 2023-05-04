@@ -6,5 +6,6 @@ def task():
             print(line.strip())
 
 
+
 if __name__ == "__main__":
     task()
