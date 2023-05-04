@@ -1,10 +1,11 @@
+# -*- coding: cp1251 -*-
 def task():
-    list_words = ["РћРґРёРЅ", "Р”РІР°", "РўСЂРё"]
+    list_words = ["Один", "Два", "Три"]
 
     filename = "output.txt"
     with open(filename, "w", encoding="utf-8") as f:
         for word in list_words:
-            f.write(word + "\n")  # TODO СЃ РїРѕРјРѕС‰СЊСЋ РјРµС‚РѕРґР° write Р·Р°РїРёС€РёС‚Рµ РїРѕСЃС‚СЂРѕС‡РЅРѕ СЃРѕРґРµСЂР¶РёРјРѕРµ СЃРїРёСЃРєР°
+            f.write(word + "\n")  #  с помощью метода write запишите построчно содержимое списка
 
     with open(filename, "r", encoding="utf-8") as f:
         for line in f:

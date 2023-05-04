@@ -35,3 +35,4 @@ if __name__ == "__main__":
     obj_from_file = from_pickle_file("output.pickle")  # считываем объект из файла
 
     obj_from_file["func"]()  # вызываем функцию из словаря
+    # print(obj_from_file["tuple"])
