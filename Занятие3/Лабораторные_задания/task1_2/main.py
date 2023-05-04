@@ -9,7 +9,6 @@ def task():
             file.write(" " * counter + "*" * i + "\n")
 
 
-
 if __name__ == "__main__":
     task()
 
