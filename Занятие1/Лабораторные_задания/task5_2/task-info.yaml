@@ -11,16 +11,16 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 64
-    length: 52
-    placeholder_text: "...  # TODO  вернуть список температур по Фаренгейту"
+  - offset: 116
+    length: 45
+    placeholder_text: '...  # TODO  вернуть список температур по Фаренгейту'
     initial_state:
       length: 52
       offset: 64
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
-    encrypted_possible_answer: "list(map(lambda temp: temp * (9 / 5) + 32, temp_tuple))"
+    encrypted_possible_answer: 'list(map(lambda temp: temp * (9 / 5) + 32, temp_tuple))'
   text: |
     def task() -> list:
         temp_tuple = (0, 36.6, 100)
