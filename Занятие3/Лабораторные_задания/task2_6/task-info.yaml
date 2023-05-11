@@ -4,16 +4,16 @@ files:
   visible: true
   placeholders:
   - offset: 129
-    length: 41
+    length: 36
     placeholder_text: '...  # TODO отсортировать список словарей'
     initial_state:
       length: 41
       offset: 129
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Failed
     encrypted_possible_answer: 'sorted(json_data, key=lambda item: item["length"])'
-  - offset: 261
+  - offset: 256
     length: 64
     placeholder_text: '# TODO дополнительно записать отсортированный список в JSON
       файл'
@@ -21,7 +21,7 @@ files:
       length: 64
       offset: 261
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Failed
     encrypted_possible_answer: '# TODO'
   text: |

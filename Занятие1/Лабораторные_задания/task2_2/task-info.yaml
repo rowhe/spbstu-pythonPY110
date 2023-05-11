@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 151
-    length: 101
+  - offset: 199
+    length: 82
     placeholder_text: '[num for num in list_numbers if num < 0])  # TODO заменить
       list comprehension на filter'
     initial_state:
@@ -12,7 +12,7 @@ files:
       offset: 126
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: 'filter(lambda x: x < 0, list_numbers))'
   text: |
     def task() -> int:
@@ -32,12 +32,8 @@ files:
   text: |
     -51
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: Wed, 03 May 2023 13:25:29 UTC
-  expected: |
-    -51
-  actual: |
-    list[<filter object at 0x00000133BAA07F40>]
+  message: Congratulations!
+  time: Thu, 11 May 2023 13:04:13 UTC
 record: -1

@@ -6,7 +6,7 @@ def task():
     with open(filename) as f:
         json_data = json.load(f)
 
-    return ...  # TODO отсортировать список словарей
+    return ...  # отсортировать список словарей
 
 
 if __name__ == "__main__":
