@@ -3,17 +3,17 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 396
-    length: 123
-    placeholder_text: "print(python_obj)  # TODO распечатать объект как JSON строк\
-      у с отступами и кодировкой"
+  - offset: 395
+    length: 85
+    placeholder_text: 'print(python_obj)  # TODO распечатать объект как JSON строку
+      с отступами и кодировкой'
     initial_state:
       length: 85
       offset: 395
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
-    encrypted_possible_answer: "print(json.dumps(python_obj, indent=4, ensure_ascii=False))"
+    encrypted_possible_answer: print(json.dumps(python_obj, indent=4, ensure_ascii=False))
   text: |
     import json
 
@@ -57,5 +57,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 04 May 2023 16:20:57 UTC"
+  time: Fri, 05 May 2023 11:37:53 UTC
 record: -1

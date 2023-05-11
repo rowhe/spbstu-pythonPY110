@@ -1,5 +1,11 @@
 type: output
 files:
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/output.txt
+  visible: false
+  learner_created: false
 - name: main.py
   visible: true
   text: |
@@ -14,11 +20,11 @@ files:
         print(task([1, 2, 3]))
         print(task(["str", 2, 3]))
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
-- name: tests/output.txt
-  visible: false
-  learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Fri, 05 May 2023 11:36:17 UTC
+  actual: |
+    True
+    False
 record: -1
