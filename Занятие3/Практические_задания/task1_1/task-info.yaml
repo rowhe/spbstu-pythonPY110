@@ -25,7 +25,7 @@ files:
   visible: true
   placeholders:
   - offset: 256
-    length: 77
+    length: 92
     placeholder_text: '# TODO c помощью метода строки strip очистить строку от непечатыемых
       символов'
     initial_state:
@@ -50,5 +50,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 05 May 2023 11:37:44 UTC
+  time: "Thu, 04 May 2023 15:22:29 UTC"
 record: -1

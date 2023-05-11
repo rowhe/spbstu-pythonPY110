@@ -43,12 +43,13 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: "Thu, 20 Apr 2023 17:16:45 UTC"
+  time: "Thu, 11 May 2023 15:14:32 UTC"
   expected: |
     1
     10
     100
     1000
     10000
-  actual: <no output>
+  actual: |
+    100
 record: -1

@@ -16,6 +16,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Thu, 11 May 2023 13:07:46 UTC
-  actual: <no output>
+  time: "Thu, 11 May 2023 15:14:54 UTC"
+  actual: |
+    [(0, 1), (1, 2), (2, 3), (3, 4), (4, 5)]
 record: -1

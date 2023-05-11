@@ -2,9 +2,9 @@ import re
 
 
 def task():
-    emails = "abc.test@gmail.com, xyz@test.in, test.first@analyticsvidhya.com, first.test@rest.biz"
+    emails = "abc.test@gmail.com, xyz@test.in, test.first@analyticsvidhya.com, first.test@rest.biz, user@ararat.mail.ru"
 
-    email_pattern = re.compile(...)  # TODO используйте запоминающие группы
+    email_pattern = re.compile(r"@(\w+)\.(\w+)")  # используйте запоминающие группы
     print(email_pattern.findall(emails))
 
 

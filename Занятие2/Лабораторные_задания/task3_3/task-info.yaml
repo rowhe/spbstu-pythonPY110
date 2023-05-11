@@ -13,7 +13,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       def header_footer(fn):
           def wrapper():
@@ -44,5 +44,13 @@ files:
     Hello World
     ========
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Thu, 11 May 2023 15:14:35 UTC"
+  expected: |
+    ========
+    Hello World
+    ========
+  actual: <no output>
 record: -1
