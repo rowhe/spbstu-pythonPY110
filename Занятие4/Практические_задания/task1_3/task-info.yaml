@@ -3,9 +3,9 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 177
-    length: 52
-    placeholder_text: "...)  # TODO используйте запоминающие группы"
+  - offset: 156
+    length: 44
+    placeholder_text: '...)  # TODO используйте запоминающие группы'
     initial_state:
       length: 44
       offset: 156
@@ -36,7 +36,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: "Thu, 11 May 2023 16:16:50 UTC"
+  time: Sun, 14 May 2023 15:43:59 UTC
   actual: |
     [('gmail', 'com'), ('test', 'in'), ('analyticsvidhya', 'com'), ('rest', 'biz'), ('ararat', 'mail')]
 record: -1

@@ -4,9 +4,9 @@ files:
   visible: true
   placeholders:
   - offset: 229
-    length: 70
-    placeholder_text: "...)  # TODO записать регулярное выражение для поиска слова\
-      \ любой длины"
+    length: 71
+    placeholder_text: '...)  # TODO записать регулярное выражение для поиска слова
+      любой длины'
     initial_state:
       length: 71
       offset: 229
@@ -14,10 +14,10 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: r"\w+")
-  - offset: 356
-    length: 73
-    placeholder_text: ")  # TODO вызвать от регулярного выражения методы search и\
-      \ group"
+  - offset: 355
+    length: 65
+    placeholder_text: ')  # TODO вызвать от регулярного выражения методы search и
+      group'
     initial_state:
       length: 64
       offset: 355
@@ -66,5 +66,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 11 May 2023 15:34:42 UTC"
+  time: Fri, 12 May 2023 13:11:37 UTC
 record: -1
