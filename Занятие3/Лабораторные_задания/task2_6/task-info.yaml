@@ -4,18 +4,17 @@ files:
   visible: true
   placeholders:
   - offset: 129
-    length: 148
-    placeholder_text: "...  # TODO отсортировать список словарей"
+    length: 77
+    placeholder_text: '...  # TODO отсортировать список словарей'
     initial_state:
       length: 41
       offset: 129
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
-    encrypted_possible_answer: "sorted(json_data, key=lambda item: item[\"length\"\
-      ])"
-  - offset: 368
-    length: 64
+    encrypted_possible_answer: 'sorted(json_data, key=lambda item: item["length"])'
+  - offset: 297
+    length: 135
     placeholder_text: '# TODO дополнительно записать отсортированный список в JSON
       файл'
     initial_state:
@@ -175,5 +174,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 11 May 2023 15:14:10 UTC"
+  time: Thu, 11 May 2023 13:21:20 UTC
 record: -1

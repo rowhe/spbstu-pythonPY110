@@ -5,7 +5,7 @@ files:
   placeholders:
   - offset: 343
     length: 75
-    placeholder_text: "...)  # TODO как получить от итератора следующий объект?"
+    placeholder_text: '...)  # TODO как получить от итератора следующий объект?'
     initial_state:
       length: 56
       offset: 343
@@ -15,7 +15,7 @@ files:
     encrypted_possible_answer: next(iterator_numbers))
   - offset: 547
     length: 75
-    placeholder_text: "...)  # TODO как получить от итератора следующий объект?"
+    placeholder_text: '...)  # TODO как получить от итератора следующий объект?'
     initial_state:
       length: 56
       offset: 528
@@ -65,5 +65,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 13 Apr 2023 17:06:09 UTC"
+  time: Thu, 13 Apr 2023 17:06:09 UTC
 record: -1

@@ -5,8 +5,8 @@ files:
   placeholders:
   - offset: 112
     length: 14
-    placeholder_text: "# TODO объявить, что переменная count не локальная, а её на\
-      до искать в nonlocal области видимости"
+    placeholder_text: '# TODO объявить, что переменная count не локальная, а её надо
+      искать в nonlocal области видимости'
     initial_state:
       length: 97
       offset: 112
@@ -50,6 +50,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: "Thu, 20 Apr 2023 16:26:31 UTC"
+  time: Thu, 20 Apr 2023 16:26:31 UTC
 record: -1
 post_submission_on_open: true

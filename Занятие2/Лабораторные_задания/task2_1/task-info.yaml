@@ -3,17 +3,17 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 68
-    length: 43
+  - offset: 77
+    length: 40
     placeholder_text: '# TODO с помощью yield вернуть первое число'
     initial_state:
       length: 43
       offset: 68
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: yield num
-  - offset: 147
+  - offset: 153
     length: 12
     placeholder_text: '# TODO с помощью yield вернуть оставшиеся степени двойки до
       бесконечности'
@@ -63,5 +63,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 20 Apr 2023 17:13:37 UTC"
+  time: Wed, 23 Aug 2023 08:07:03 UTC
 record: -1

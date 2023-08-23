@@ -4,29 +4,28 @@ files:
   visible: true
   placeholders:
   - offset: 58
-    length: 112
+    length: 59
     placeholder_text: '# TODO считать содержимое JSON файла'
     initial_state:
       length: 36
       offset: 58
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       with open(filename) as f:
               json_data = json.load(f)
-  - offset: 186
-    length: 100
-    placeholder_text: "...  # TODO записать выражение-генератор возвращающее значе\
-      ние по ключу contains_improvement_appeals"
+  - offset: 127
+    length: 159
+    placeholder_text: '...  # TODO записать выражение-генератор возвращающее значение
+      по ключу contains_improvement_appeals'
     initial_state:
       length: 100
       offset: 110
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
-    encrypted_possible_answer: "(item[\"contains_improvement_appeals\"] for item in\
-      \ json_data)"
+    encrypted_possible_answer: (item["contains_improvement_appeals"] for item in json_data)
   text: |
     import json
 
@@ -56,5 +55,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 11 May 2023 15:14:08 UTC"
+  time: Wed, 10 May 2023 17:49:05 UTC
 record: -1

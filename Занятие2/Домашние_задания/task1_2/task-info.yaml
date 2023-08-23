@@ -35,8 +35,5 @@ files:
     8
     9
   learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 11 May 2023 15:13:33 UTC"
+status: Unchecked
 record: -1

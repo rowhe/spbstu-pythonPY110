@@ -5,26 +5,26 @@ files:
   placeholders:
   - offset: 43
     length: 62
-    placeholder_text: "[hex(num) for num in numbers]  # TODO заменить на итератор\
-      \ map"
+    placeholder_text: '[hex(num) for num in numbers]  # TODO заменить на итератор
+      map'
     initial_state:
       length: 62
       offset: 43
     initialized_from_dependency: false
     selected: false
     status: Solved
-    encrypted_possible_answer: "map(hex, numbers)"
+    encrypted_possible_answer: map(hex, numbers)
   - offset: 131
     length: 103
-    placeholder_text: "...:  # TODO используя zip объединить число и его шестнадца\
-      теричное представление"
+    placeholder_text: '...:  # TODO используя zip объединить число и его шестнадцатеричное
+      представление'
     initial_state:
       length: 81
       offset: 131
     initialized_from_dependency: false
     selected: true
     status: Solved
-    encrypted_possible_answer: "zip(numbers, hex_numbers):"
+    encrypted_possible_answer: 'zip(numbers, hex_numbers):'
   text: |
     def task(numbers: list):
         hex_numbers = [hex(num) for num in numbers]  # TODO заменить на итератор map
@@ -63,5 +63,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 13 Apr 2023 17:35:34 UTC"
+  time: Thu, 13 Apr 2023 17:35:34 UTC
 record: -1

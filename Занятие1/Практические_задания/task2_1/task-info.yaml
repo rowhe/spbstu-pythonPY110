@@ -5,15 +5,15 @@ files:
   placeholders:
   - offset: 67
     length: 77
-    placeholder_text: "[char for char in str_ if char.isalpha()]  # TODO переписат\
-      ь с помощью filter"
+    placeholder_text: '[char for char in str_ if char.isalpha()]  # TODO переписать
+      с помощью filter'
     initial_state:
       length: 77
       offset: 65
     initialized_from_dependency: false
     selected: true
     status: Solved
-    encrypted_possible_answer: "filter(str.isalpha, str_)"
+    encrypted_possible_answer: filter(str.isalpha, str_)
   text: |
     if __name__ == "__main__":
         str_ = "1q2w3e4r5t6y"
@@ -32,5 +32,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 13 Apr 2023 16:02:41 UTC"
+  time: Thu, 13 Apr 2023 16:02:41 UTC
 record: -1

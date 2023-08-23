@@ -18,6 +18,6 @@ def to_json_file(python_object):
 
 if __name__ == "__main__":
     python_obj = from_json_file()
-    print(json.dumps(python_obj, indent=4, ensure_ascii=False))  #  распечатать объект как JSON строку с отступами и кодировкой
+    print(json.dumps(python_obj, indent=4, ensure_ascii=False))  # распечатать объект как JSON строку с отступами и кодировкой
 
     to_json_file(python_obj)

@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 54
-    length: 67
-    placeholder_text: "fn()  # TODO перевести результат исходной функции в верхний\
-      \ регистр"
+    length: 93
+    placeholder_text: 'fn()  # TODO перевести результат исходной функции в верхний
+      регистр'
     initial_state:
       length: 67
       offset: 54
     initialized_from_dependency: false
-    selected: false
-    status: Failed
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       result = fn()
               result = result.upper()
@@ -40,12 +40,8 @@ files:
   text: |
     HELLO, WORLD!!!
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: "Thu, 11 May 2023 15:13:29 UTC"
-  expected: |
-    HELLO, WORLD!!!
-  actual: |
-    None
+  message: Congratulations!
+  time: Wed, 23 Aug 2023 14:33:53 UTC
 record: -1
