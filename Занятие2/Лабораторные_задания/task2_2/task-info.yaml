@@ -3,9 +3,10 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 140
-    length: 91
-    placeholder_text: '...  # TODO написать функцию-генератор возвращающую целые числа'
+  - offset: 57
+    length: 167
+    placeholder_text: "...  # TODO написать функцию-генератор возвращающую целые ч\
+      исла"
     initial_state:
       length: 63
       offset: 57
@@ -46,5 +47,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 23 Aug 2023 08:17:05 UTC
+  time: "Sat, 26 Aug 2023 09:19:22 UTC"
 record: -1
