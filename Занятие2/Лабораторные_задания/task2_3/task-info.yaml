@@ -3,9 +3,9 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 53
-    length: 77
-    placeholder_text: '...  # TODO записать функцию-генератор'
+  - offset: 28
+    length: 115
+    placeholder_text: "...  # TODO записать функцию-генератор"
     initial_state:
       length: 38
       offset: 28
@@ -43,5 +43,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 23 Aug 2023 08:18:20 UTC
+  time: "Sat, 26 Aug 2023 09:22:31 UTC"
 record: -1

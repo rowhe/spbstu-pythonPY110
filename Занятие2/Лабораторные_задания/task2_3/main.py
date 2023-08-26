@@ -3,7 +3,7 @@ def pow_gen(base: int):
     while True:
         yield base ** pows
         pows += 1
-    # записать функцию-генератор
+    return None #  записать функцию-генератор
 
 
 if __name__ == "__main__":
