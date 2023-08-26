@@ -8,10 +8,9 @@ def positive_check(fn):
     return wrapper
 
 
- #декорировать функцию
+@positive_check #декорировать функцию
 def some_func(num: int):
-
-    positive_check()
+    ...
 
 
 if __name__ == "__main__":

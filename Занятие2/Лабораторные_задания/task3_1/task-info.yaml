@@ -4,25 +4,25 @@ files:
   visible: true
   placeholders:
   - offset: 54
-    length: 62
+    length: 54
     placeholder_text: '# TODO написать проверку положительности аргумента arg'
     initial_state:
       length: 54
       offset: 54
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       if not arg > 0:
                   raise ValueError("Аргумент функции не является положительным числом")
-  - offset: 268
-    length: 22
+  - offset: 179
+    length: 29
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
       length: 29
       offset: 179
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: '@positive_check'
   text: |
@@ -51,6 +51,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: Mon, 22 May 2023 13:29:09 UTC
+  time: "Sat, 26 Aug 2023 09:25:37 UTC"
 record: -1
 post_submission_on_open: true
