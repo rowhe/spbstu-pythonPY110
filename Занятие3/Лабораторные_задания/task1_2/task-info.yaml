@@ -5,7 +5,7 @@ files:
   placeholders:
   - offset: 45
     length: 35
-    placeholder_text: "...  # TODO записать лесенку в файл"
+    placeholder_text: '...  # TODO записать лесенку в файл'
     initial_state:
       length: 35
       offset: 45
@@ -54,5 +54,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sat, 26 Aug 2023 09:01:48 UTC"
+  time: Sat, 26 Aug 2023 09:01:48 UTC
 record: -1

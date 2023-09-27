@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 158
-    length: 68
+  - offset: 135
+    length: 69
     placeholder_text: '[get_distance(point) for point in points]  # TODO записать
       через map'
     initial_state:

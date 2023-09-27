@@ -5,7 +5,7 @@ files:
   placeholders:
   - offset: 79
     length: 176
-    placeholder_text: "...  # TODO считать содержимое json файл input.json"
+    placeholder_text: '...  # TODO считать содержимое json файл input.json'
     initial_state:
       length: 51
       offset: 79
@@ -17,8 +17,7 @@ files:
               json_data = json.load(f)
   - offset: 261
     length: 67
-    placeholder_text: "...  # TODO записать содержимое в json файл output.json с о\
-      тступами"
+    placeholder_text: '...  # TODO записать содержимое в json файл output.json с отступами'
     initial_state:
       length: 67
       offset: 136

@@ -3,6 +3,5 @@ if __name__ == "__main__":
         lines1 = f1.read()
     with open("input2.txt") as f2:
         lines2 = f2.read()
-    with open("ouput.txt", "w") as f3:
+    with open("output.txt", "w") as f3:
         f3.write(lines1 + "\n" + lines2)
-    pass

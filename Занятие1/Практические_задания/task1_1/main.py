@@ -3,8 +3,8 @@ def get_distance(point: tuple) -> int:
 
 
 def task(points: list) -> list:
-# via list comprehention    return [get_distance(point) for point in points]  # TODO записать через map
-    return list(map(get_distance, points)) # via map
+#    return [get_distance(point) for point in points]  # через list comprehension
+     return list(map(get_distance, points)) # via map  # через map
 
 if __name__ == "__main__":
     pts = [

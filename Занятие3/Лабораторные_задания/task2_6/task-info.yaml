@@ -5,15 +5,14 @@ files:
   placeholders:
   - offset: 129
     length: 41
-    placeholder_text: "...  # TODO отсортировать список словарей"
+    placeholder_text: '...  # TODO отсортировать список словарей'
     initial_state:
       length: 41
       offset: 129
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-    encrypted_possible_answer: "sorted(json_data, key=lambda item: item[\"length\"\
-      ])"
+    encrypted_possible_answer: 'sorted(json_data, key=lambda item: item["length"])'
   - offset: 261
     length: 64
     placeholder_text: '# TODO дополнительно записать отсортированный список в JSON

@@ -5,7 +5,7 @@ files:
   placeholders:
   - offset: 28
     length: 115
-    placeholder_text: "...  # TODO записать функцию-генератор"
+    placeholder_text: '...  # TODO записать функцию-генератор'
     initial_state:
       length: 38
       offset: 28
@@ -43,5 +43,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sat, 26 Aug 2023 09:22:31 UTC"
+  time: Sat, 26 Aug 2023 09:22:31 UTC
 record: -1

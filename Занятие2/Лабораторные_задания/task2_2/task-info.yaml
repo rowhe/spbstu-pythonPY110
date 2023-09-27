@@ -5,8 +5,7 @@ files:
   placeholders:
   - offset: 57
     length: 167
-    placeholder_text: "...  # TODO написать функцию-генератор возвращающую целые ч\
-      исла"
+    placeholder_text: '...  # TODO написать функцию-генератор возвращающую целые числа'
     initial_state:
       length: 63
       offset: 57
@@ -47,5 +46,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sat, 26 Aug 2023 09:19:22 UTC"
+  time: Sat, 26 Aug 2023 09:19:22 UTC
 record: -1

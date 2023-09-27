@@ -17,14 +17,14 @@ files:
               json_data = json.load(f)
   - offset: 107
     length: 53
-    placeholder_text: "...  # TODO найти максимальный элемент по ключу score"
+    placeholder_text: '...  # TODO найти максимальный элемент по ключу score'
     initial_state:
       length: 53
       offset: 107
     initialized_from_dependency: false
     selected: false
     status: Solved
-    encrypted_possible_answer: "max(json_data, key=lambda item: item[\"score\"])"
+    encrypted_possible_answer: 'max(json_data, key=lambda item: item["score"])'
   text: |
     import json
 
@@ -53,5 +53,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sat, 26 Aug 2023 09:07:38 UTC"
+  time: Sat, 26 Aug 2023 09:07:38 UTC
 record: -1

@@ -3,12 +3,12 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 178
+  - offset: 179
     length: 70
-    placeholder_text: "...  # TODO с помощью метода write запишите построчно содер\
-      жимое списка"
+    placeholder_text: '...  # TODO с помощью метода write запишите построчно содержимое
+      списка'
     initial_state:
-      length: 71
+      length: 70
       offset: 178
     initialized_from_dependency: false
     selected: false
@@ -52,5 +52,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sat, 26 Aug 2023 09:00:18 UTC"
+  time: Fri, 05 May 2023 11:37:48 UTC
 record: -1
