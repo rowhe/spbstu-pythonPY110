@@ -11,7 +11,7 @@ files:
       offset: 129
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'sorted(json_data, key=lambda item: item["length"])'
   - offset: 261
     length: 64
@@ -22,7 +22,7 @@ files:
       offset: 261
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '# TODO'
   text: |
     import json
@@ -171,5 +171,8 @@ files:
 - name: output.json
   visible: true
   learner_created: true
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 27 Sep 2023 10:29:59 UTC
 record: -1

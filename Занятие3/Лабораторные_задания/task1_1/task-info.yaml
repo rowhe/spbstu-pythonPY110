@@ -10,7 +10,7 @@ files:
       length: 51
       offset: 51
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: 'with open(INPUT_FILE) as file:'
   - offset: 111
@@ -72,5 +72,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Fri, 05 May 2023 11:38:01 UTC
+  time: Wed, 27 Sep 2023 10:16:40 UTC
 record: -1

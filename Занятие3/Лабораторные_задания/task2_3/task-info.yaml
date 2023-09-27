@@ -22,7 +22,7 @@ files:
       length: 53
       offset: 107
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: 'max(json_data, key=lambda item: item["score"])'
   text: |
